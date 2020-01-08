@@ -15,12 +15,6 @@ function createWindow () {
             nativeWindowOpen: true
         }
     });
-    modalWindow = new BrowserWindow({
-        width: 1000,
-        height: 800,
-        parent: mainWindow,
-        show: false,
-    });
 
     // and load the index.html of the app.
     mainWindow.loadURL(`file://${__dirname}/index.html`);
@@ -38,6 +32,13 @@ function createWindow () {
     });
 
     ipcMain.on('new-window', (event, args) => {
+
+        modalWindow = new BrowserWindow({
+            width: 1000,
+            height: 800,
+            parent: mainWindow,
+            show: false,
+        });
 
         modalWindow.loadURL(`file://${__dirname}/mail.html`);
 
