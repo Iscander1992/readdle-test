@@ -1,0 +1,91 @@
+{
+  "main": "./dist/main.js",
+  "productName": "readdle-test",
+  "version": "1.0.0",
+  "description": "My test task",
+  "scripts": {
+    "start": "yarn run dev && node_modules/.bin/electron .",
+    "dev": "yarn run development",
+    "development": "cross-env NODE_ENV=development node_modules/webpack/bin/webpack.js --progress --hide-modules --config=node_modules/laravel-mix/setup/webpack.config.js",
+    "watch": "npm run development -- --watch",
+    "package": "node_modules/.bin/electron-forge package",
+    "test": "node_modules/.bin/jest"
+  },
+  "config": {
+    "forge": {
+      "make_targets": {
+        "win32": [
+          "squirrel"
+        ],
+        "darwin": [
+          "zip"
+        ],
+        "linux": [
+          "deb",
+          "rpm"
+        ]
+      },
+      "electronPackagerConfig": {
+        "packageManager": "npm"
+      },
+      "electronWinstallerConfig": {
+        "name": "simple_desktop_app_electronjs"
+      },
+      "electronInstallerDebian": {},
+      "electronInstallerRedhat": {},
+      "github_repository": {
+        "owner": "",
+        "name": ""
+      },
+      "windowsStoreConfig": {
+        "packageName": "",
+        "name": "simpledesktopappelectronjs"
+      }
+    }
+  },
+  "devDependencies": {
+    "@babel/plugin-transform-async-to-generator": "^7.7.4",
+    "@babel/preset-env": "^7.7.7",
+    "@babel/preset-react": "^7.7.4",
+    "@babel/preset-typescript": "^7.7.7",
+    "@types/classnames": "^2.2.9",
+    "@types/jest": "^24.0.25",
+    "@types/lodash-es": "^4.17.3",
+    "@types/node": "^13.1.2",
+    "@types/ramda": "^0.26.39",
+    "@types/react": "^16.9.17",
+    "@types/react-dom": "^16.9.4",
+    "babel-jest": "^24.9.0",
+    "browser-sync": "^2.26.7",
+    "browser-sync-webpack-plugin": "^2.0.1",
+    "cross-env": "^6.0.3",
+    "electron": "^7.1.7",
+    "electron-forge": "^5.2.4",
+    "electron-prebuilt-compile": "3.0.13",
+    "enzyme": "^3.11.0",
+    "enzyme-adapter-react-16": "^1.15.2",
+    "jest": "^24.9.0",
+    "jest-extended": "^0.11.2",
+    "laravel-mix": "^5.0.1",
+    "resolve-url-loader": "^3.1.0",
+    "sass": "^1.24.1",
+    "sass-loader": "^8.0.0",
+    "ts-loader": "^6.2.1",
+    "typescript": "^3.7.4"
+  },
+  "dependencies": {
+    "@fortawesome/fontawesome-svg-core": "^1.2.26",
+    "@fortawesome/free-solid-svg-icons": "^5.12.0",
+    "@fortawesome/react-fontawesome": "^0.1.8",
+    "bootstrap": "^4.4.1",
+    "classnames": "^2.2.6",
+    "date-fns": "^2.8.1",
+    "electron-compile": "^6.4.4",
+    "electron-store": "^5.1.0",
+    "fp-ts": "^2.3.1",
+    "lodash-es": "^4.17.15",
+    "ramda": "^0.26.1",
+    "react": "^16.12.0",
+    "react-dom": "^16.12.0"
+  }
+}

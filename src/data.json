@@ -1,0 +1,84 @@
+{
+    "sections": [
+        {
+            "id": "inbox",
+            "name": "Inbox",
+            "icon": "faInbox"
+        },
+        {
+            "id": "outbox",
+            "name": "Outbox",
+            "icon": "faPaperPlane",
+            "mails": []
+        },
+        {
+            "id": "draft",
+            "name": "Draft",
+            "icon": "faStickyNote",
+            "mails": []
+        },
+        {
+            "id": "removed",
+            "name": "Removed",
+            "icon": "faTrash",
+            "mails": []
+        }
+    ],
+    "mails": [
+        {
+            "id": "009759d3-5711-4ec6-a9cc-fb2b4866e03d",
+            "sectionId": "inbox",
+            "date": "2019-12-29 10:23:54",
+            "from": "masha@gmail.com",
+            "to": "my@mail.com",
+            "subject": "Content management system",
+            "content": "Lorem ipsum dolor sit amet, vitae signiferumque cum et, usu erant melius in, ne vis eruditi appellantur consectetuer. Quo volutpat praesent ne. Movet utamur est ex, ius in atqui senserit. Ad vix quodsi tritani necessitatibus. Has omnis elitr saperet no, quis case pericula ad sit, eu nec corpora delicatissimi. Ad pri modo nibh efficiantur.",
+            "isRead": false,
+            "isDeleted": false
+        },
+        {
+            "id": "fcfdeb3c-47f7-47d1-9a1a-d3b4515bfe54",
+            "sectionId": "inbox",
+            "date": "2019-12-27 22:10:08",
+            "from": "travel@tickets.ua",
+            "to": "my@mail.com",
+            "subject": "Special for you",
+            "content": "Lorem ipsum dolor sit amet, vitae signiferumque cum et, usu erant melius in, ne vis eruditi appellantur consectetuer. Quo volutpat praesent ne. Movet utamur est ex, ius in atqui senserit. Ad vix quodsi tritani necessitatibus. Has omnis elitr saperet no, quis case pericula ad sit, eu nec corpora delicatissimi. Ad pri modo nibh efficiantur.",
+            "isRead": true,
+            "isDeleted": false
+        },
+        {
+            "id": "7cfb8eef-024d-49c6-9ed7-bd4ee868dc6f",
+            "sectionId": "draft",
+            "date": "2019-12-28 19:33:42",
+            "from": "my@mail.com",
+            "to": "wshahidkhans@brassbrush.biz",
+            "subject": "My hobby",
+            "content": "Lorem ipsum dolor sit amet, vitae signiferumque cum et, usu erant melius in, ne vis eruditi appellantur consectetuer. Quo volutpat praesent ne. Movet utamur est ex, ius in atqui senserit. Ad vix quodsi tritani necessitatibus. Has omnis elitr saperet no, quis case pericula ad sit, eu nec corpora delicatissimi. Ad pri modo nibh efficiantur.",
+            "isRead": true,
+            "isDeleted": false
+        },
+        {
+            "id": "eb25a769-c0a7-48f6-9ff8-effe125172de",
+            "sectionId": "inbox",
+            "date": "2019-12-24 06:11:25",
+            "from": "7benali@skechers-store.site",
+            "to": "my@mail.com",
+            "subject": "New sale for you!",
+            "content": "Lorem ipsum dolor sit amet, vitae signiferumque cum et, usu erant melius in, ne vis eruditi appellantur consectetuer. Quo volutpat praesent ne. Movet utamur est ex, ius in atqui senserit. Ad vix quodsi tritani necessitatibus. Has omnis elitr saperet no, quis case pericula ad sit, eu nec corpora delicatissimi. Ad pri modo nibh efficiantur.",
+            "isRead": true,
+            "isDeleted": true
+        },
+        {
+            "id": "eb25a769-c0a7-48f6-9ff8-effe125172de",
+            "sectionId": "outbox",
+            "date": "2019-12-31 23:34:25",
+            "from": "my@mail.com",
+            "to": "7benali@skechers-store.site",
+            "subject": "Happy New Year!",
+            "content": "Lorem ipsum dolor sit amet, vitae signiferumque cum et, usu erant melius in, ne vis eruditi appellantur consectetuer. Quo volutpat praesent ne. Movet utamur est ex, ius in atqui senserit. Ad vix quodsi tritani necessitatibus. Has omnis elitr saperet no, quis case pericula ad sit, eu nec corpora delicatissimi. Ad pri modo nibh efficiantur.",
+            "isRead": true,
+            "isDeleted": false
+        }
+    ]
+}

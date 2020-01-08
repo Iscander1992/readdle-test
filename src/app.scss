@@ -1,0 +1,30 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+svg {
+	margin-right: 5px;
+}
+
+.full-height {
+	min-height: 100vh;
+}
+
+.no-wrap {
+	white-space: nowrap;
+}
+
+.mail {
+	&-item {
+
+		&-subject {
+
+		}
+
+		&-content {
+			display: inline-block;
+			width: 100%;
+			white-space: nowrap;
+			overflow: hidden;
+			text-overflow: ellipsis;
+		}
+	}
+}

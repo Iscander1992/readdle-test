@@ -1,0 +1,20 @@
+{
+    "compilerOptions": {
+        "module": "commonjs",
+        "target": "es5",
+        "sourceMap": true,
+        "resolveJsonModule": true,
+        "jsx": "react",
+        "baseUrl": ".",
+        "sourceRoot": ".",
+        "paths": {
+            "App/*": ["./src/App/*"]
+        },
+        "lib": ["esnext", "dom"]
+    },
+    "exclude": [
+        "node_modules",
+        "**/*.test.ts",
+        "**/*.test.tsx"
+    ]
+}
